@@ -156,7 +156,7 @@ class MobileMoneyAccount(Account):
             
 
             
-      def Paybill(self, amount):
+      def Pay_bill(self, amount):
             try:
               amount + 1
             except TypeError:
